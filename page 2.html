@@ -14,18 +14,64 @@
         height: 100px;
         border-radius: 50%;
     }
+    .nav-container{
+        background-color: green;
+        padding: 10px;
+        margin: auto;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .nav{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .li-navbar{
+        text-align: center;
+        padding: 30px;
+        margin: 10px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .li-navbar:hover{
+        background-color: yellowgreen;
+        transition: 2s ease-in-out;
+        border-radius: 20px;
+    }
+    .ul-content{
+        list-style-type: none;
+        padding: 10px;
+        margin: 10px;
+    }
+    .li-content{
+        font-size: 20px;
+        list-style-type: none;
+        padding: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .a-content{
+        text-decoration: none;
+        color: black;
+    }
 </style>
 <body>
     <!-- navbar -->
-    <nav class="nav-container">
-      <a class="">Menu</a>
-       <a>About Me</a>
-       <a>Contact Me</a>
-    </nav>
+    <div class="nav-container">
+        <ul class="nav">
+            <li class="li-navbar">Menu</li>
+            <li class="li-navbar">About Me</li>
+            <li class="li-navbar">Contact Me</li>
+        </ul>
+    </div>
      <!-- navbar end -->
       <!-- content -->
-      <audio controls src="img/audio/Dj_Ku_ditinggal_aisyah_Slow_Full_Bass_sound_aditxml_viral_tiktok.mp3">ini audio</audio>
       <img class="img" src="img/diri.jpg" alt="gambar diri">
+     <ul>
+        <li class="li-content">Nama Kampus:<a href="https://global.ac.id/" target="_blank" class="a-content"> Global Institute</a></li>
+        <li class="li-content">Nim  : 1124160100</li>
+        <li class="li-content">Nama : Fadhil Abi Untoro</li>
+        <li class="li-content">Prodi: Teknik Informatika</li>
+     </ul>
       <!-- content end -->
        <!-- footer -->
 
