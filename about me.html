@@ -49,6 +49,7 @@
         padding: 30px;
         font-family: Arial, Helvetica, sans-serif;
         color: black;
+        background-color: azure;
     }
     .a-content{
         text-decoration: none;
@@ -62,16 +63,15 @@
         text-decoration: none;
         color: black;
     }
-    .footer{
-       background-color: gray;
-      text-align: center;
-      font-size: 20px;
-    }
-    .github{
-       
-        margin-left: 10px;
-        width: 30px;
-        height: auto;
+    footer {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    .social-icons img{
+         width: 50px; /* Ukuran ikon */
+         margin: 0 10px; /* Jarak antar ikon */
+        vertical-align: middle; /* Penempatan vertikal */
     }
  
 </style>
@@ -79,8 +79,8 @@
     <!-- navbar -->
     <div class="nav-container">
         <ul class="nav">
-            <li class="li-navbar"><a href="page 2.html" class="a-nav"> Menu</a></li>
-            <li class="li-navbar"><a href="about me.html" class="a-nav"> About Me</a></li>
+            <li class="li-navbar"><a href="index.html" class="a-nav"> Menu</a></li>
+            <li class="li-navbar"><a href="about me.html" class="a-nav"> Tentang Saya</a></li>
             <li class="li-navbar">Contact Me</li>
         </ul>
     </div>
@@ -97,10 +97,21 @@
     
       <!-- content end -->
        <!-- footer -->
-       <footer class="footer">
-        <p>&copy; 2025 Fadhil Abi Untoro</p>
-        <img src="img/github.png" class="github">
-       </footer>
+       <footer>
+        <div class="social-icons">
+            <a href="https://github.com/fadhilabi22" target="_blank">
+                <img src="img/github.png" alt="GitHub">
+            </a>
+            <a href="mailto:fadielabi4567@gmail.com">
+                <img src="img/image.png" alt="Email">
+            </a>
+            <a href="https://wa.me/085872484772" target="_blank">
+                <img src="img/icons8-whatsapp-48.png" alt="WhatsApp">
+            </a>
+        </div>
+        <p>Fadhil Abi Untoro © 2025 </p>
+    </footer>
+
        <!-- footer end -->
 </body>
 </html>
