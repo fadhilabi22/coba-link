@@ -6,27 +6,31 @@
     border-radius: 50%;
 }
 .nav-container{
-   
     padding: 9px;
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
+   
 }
 .nav{
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.li-navbar{
-    text-align: center;
-    padding: 30px;
-    margin: 10px;
-    font-size: 40px;
-    font-weight: bold;
   
 }
+.li-navbar {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+ 
+  
+}
+
 .li-navbar:hover{
-    background-color: yellowgreen;
+   background-color: greenyellow;
     transition: 2s ease-in-out;
     border-radius: 20px;
 }
@@ -47,10 +51,6 @@
     text-decoration: none;
     color: black;
 }
-.section{
-    display: flex;
-
-}
 .a-nav{
     text-decoration: none;
     color: black;
@@ -61,7 +61,21 @@ footer {
         text-align: center;
     }
 .social-icons img{
-     width: 50px; /* Ukuran ikon */
-     margin: 0 10px; /* Jarak antar ikon */
-    vertical-align: middle; /* Penempatan vertikal */
+     width: 30px; 
+     margin: 0 10px; 
+     vertical-align: middle;
+}
+.yahaa{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.th{
+    background-color: gray;
+    padding: 20px;
+    margin: 20px
+}
+.td{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
 }
